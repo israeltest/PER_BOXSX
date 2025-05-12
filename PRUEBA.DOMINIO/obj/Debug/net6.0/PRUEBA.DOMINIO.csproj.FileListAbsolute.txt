@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.DOMINIO\bin\Debug\net6.0\PRUEBA.DOMINIO.deps.json
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.DOMINIO\bin\Debug\net6.0\PRUEBA.DOMINIO.dll
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.DOMINIO\bin\Debug\net6.0\PRUEBA.DOMINIO.pdb
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.DOMINIO\obj\Debug\net6.0\PRUEBA.DOMINIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.DOMINIO\obj\Debug\net6.0\PRUEBA.DOMINIO.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.DOMINIO\obj\Debug\net6.0\PRUEBA.DOMINIO.AssemblyInfo.cs
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.DOMINIO\obj\Debug\net6.0\PRUEBA.DOMINIO.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.DOMINIO\obj\Debug\net6.0\PRUEBA.DOMINIO.dll
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.DOMINIO\obj\Debug\net6.0\refint\PRUEBA.DOMINIO.dll
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.DOMINIO\obj\Debug\net6.0\PRUEBA.DOMINIO.pdb
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.DOMINIO\obj\Debug\net6.0\ref\PRUEBA.DOMINIO.dll

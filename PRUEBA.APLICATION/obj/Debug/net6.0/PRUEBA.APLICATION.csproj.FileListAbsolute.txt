@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\bin\Debug\net6.0\PRUEBA.APLICATION.deps.json
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\bin\Debug\net6.0\PRUEBA.APLICATION.dll
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\bin\Debug\net6.0\PRUEBA.APLICATION.pdb
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\bin\Debug\net6.0\PRUEBA.DOMINIO.dll
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\bin\Debug\net6.0\PRUEBA.DOMINIO.pdb
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\obj\Debug\net6.0\PRUEBA.APLICATION.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\obj\Debug\net6.0\PRUEBA.APLICATION.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\obj\Debug\net6.0\PRUEBA.APLICATION.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\obj\Debug\net6.0\PRUEBA.APLICATION.AssemblyInfo.cs
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\obj\Debug\net6.0\PRUEBA.APLICATION.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\obj\Debug\net6.0\PRUEBA.A.7C19F1A5.Up2Date
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\obj\Debug\net6.0\PRUEBA.APLICATION.dll
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\obj\Debug\net6.0\refint\PRUEBA.APLICATION.dll
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\obj\Debug\net6.0\PRUEBA.APLICATION.pdb
+C:\Users\PC\source\repos\PruebaIC\PRUEBA.APLICATION\obj\Debug\net6.0\ref\PRUEBA.APLICATION.dll

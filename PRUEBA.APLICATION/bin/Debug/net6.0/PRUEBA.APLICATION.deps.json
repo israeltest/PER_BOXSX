@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PRUEBA.APLICATION/1.0.0": {
+        "dependencies": {
+          "PRUEBA.DOMINIO": "1.0.0"
+        },
+        "runtime": {
+          "PRUEBA.APLICATION.dll": {}
+        }
+      },
+      "PRUEBA.DOMINIO/1.0.0": {
+        "runtime": {
+          "PRUEBA.DOMINIO.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PRUEBA.APLICATION/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PRUEBA.DOMINIO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
