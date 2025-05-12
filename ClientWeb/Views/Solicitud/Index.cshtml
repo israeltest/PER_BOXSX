@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ClientWeb.DTOs.SolicitudDto>
+
+@{
+    ViewData["Title"] = "Lista de Solicitudes";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<a href="@Url.Action("Crear", "Solicitud")" class="btn btn-success mb-3">Crear Nueva Solicitud</a>
+
+<table id="solicitudesTable" class="table table-striped">
+    <thead>
+        <tr>
+            ll
+            <th>Nombre</th>
+            <th>Dirección</th>
+            <th>Descripción</th>
+            <th>Estado</th>
+            <th>Tipo de Compra</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var solicitud in Model)
+        {
+            <tr>
+                <td>@solicitud.Nombre</td>
+                <td>@solicitud.DireccionSolicitante</td>
+                <td>@solicitud.Descripcion</td>
+                <td>@solicitud.EstadoDescripcion</td>
+                <td>@solicitud.TipoCompraDescripcion</td>
+                <td>
+                    <a href="@Url.Action("Editar", "Solicitud", new { id = solicitud.Id })" class="btn btn-primary">Editar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#solicitudesTable').DataTable();
+        });
+    </script>
+}

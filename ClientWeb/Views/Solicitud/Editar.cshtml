@@ -1,0 +1,53 @@
+﻿@model ClientWeb.DTOs.ActualizarSolicitudDto
+
+@{
+    ViewData["Title"] = "Editar Solicitud";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Editar" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label>Nombre</label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Dirección del Solicitante</label>
+        <input asp-for="DireccionSolicitante" class="form-control" />
+        <span asp-validation-for="DireccionSolicitante" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Descripción</label>
+        <textarea asp-for="Descripcion" class="form-control"></textarea>
+        <span asp-validation-for="Descripcion" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Estado de Solicitud</label>
+        <select asp-for="EstadoSolicitudId" class="form-control">
+            <option value="1">Pendiente</option>
+            <option value="2">Aprobado</option>
+            <option value="3">Rechazado</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Tipo de Compra</label>
+        <select asp-for="TipoCompraId" class="form-control">
+            <option value="1">Tecnología</option>
+            <option value="2">Mobiliario</option>
+            <option value="3">Servicios</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
