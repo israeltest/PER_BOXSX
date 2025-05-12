@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "API.Controllers.SolicitudController",
+    "Method": "ActualizarSolicitud",
+    "RelativePath": "api/Solicitud/ActualizarSolicitud/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "solicitudDto",
+        "Type": "PRUEBA.APLICATION.DTOs.ActualizarSolicitudDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.SolicitudController",
+    "Method": "CrearSolicitud",
+    "RelativePath": "api/Solicitud/CrearSolicitud",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "solicitudDto",
+        "Type": "PRUEBA.APLICATION.DTOs.CrearSolicitudDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.SolicitudController",
+    "Method": "ObtenerSolicitudPorId",
+    "RelativePath": "api/Solicitud/obtener/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.SolicitudController",
+    "Method": "ObtenerSolicitudes",
+    "RelativePath": "api/Solicitud/ObtenerSolicitudes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
